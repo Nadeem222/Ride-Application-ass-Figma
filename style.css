@@ -109,7 +109,7 @@ button {
 
 }
 
-.banner-left p {
+p {
     width: 425px;
     font-family: "Gilroy-light";
     color: #b7b4b4;
@@ -194,6 +194,7 @@ button {
 .search p{
     font-size: 24px;
     line-height: 28px;
+    color: #FFF;
 }
 .search input{
     width: 499px;
@@ -214,9 +215,121 @@ button {
     width: 25%;
     padding-left: 40px;
 }
+.guide-con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    color: #75BF7A;
+}
+.mobile-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 80px;
+}
+.request-ride{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    padding: 0px 40px;
+    width: 20%;
+}
 
-
-
+.round{
+    background-color: #75BF7A;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+.mobile-img{
+    position: absolute;
+    left: 10%;
+    top: -34%;
+    height: 450px;
+}
+.post-ride {
+    width: 20%;
+    padding-left: 40px;
+}
+.mobile {
+    width: 30%;
+}
+.guide-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+small {
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    right: 8.5%;
+    color: #75BF7A;
+    font-size: 15px;
+}
+.request-one{
+    position: relative;
+}
+.request-two{
+    position: relative;
+}
+.request-two small{
+    left: 7%;
+    top: 7%;
+}
+.mobile-con p{
+    width: 100%;
+}
+.flexible{
+    width: 70%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-para>span{
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: "Gilroy-light";
+}
+.flex-p{
+    font-size: 34px;
+    line-height: 36px;
+    display: inline-block;
+    left: 15.5%;
+    position: absolute;
+    width: 58%;
+    color: black;
+    font-weight: 900;
+    top: -17%;
+    height: 200px;
+}
+.flex-para{
+    position: relative;
+}
+.flex-left>p{
+    width: 65%;
+}
+.flex-right img{
+    width: 150px;
+    
+}
+.benefits-con{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.benefits-con h1{
+    margin: 40px auto;
+}
 
 
 
