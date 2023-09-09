@@ -288,7 +288,7 @@ small {
     width: 100%;
 }
 .flexible{
-    width: 70%;
+    width: 80%;
     background-color: #f9f9f9;
     display: flex;
     justify-content: space-around;
@@ -315,7 +315,7 @@ small {
 .flex-para{
     position: relative;
 }
-.flex-left>p{
+.flex-left>p , .earning-right>p{
     width: 65%;
 }
 .flex-right img{
@@ -329,6 +329,20 @@ small {
 }
 .benefits-con h1{
     margin: 40px auto;
+}
+.earning-con{
+    display: flex;
+    background-color: #f9f9f9;
+    width: 80%;
+}
+.earning{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 80px 0px;
+}
+.earning-left img{ 
+    width: 155px;
 }
 
 
