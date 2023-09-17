@@ -143,37 +143,6 @@ p {
     display: flex;
     gap: 15px;
 }
-
-/* .map{
-    position: relative;
-}
-.top-loc{
-    position: absolute;
-    left: 17%;
-}
-.ride{
-    position: relative;
-}
-.bottom-loc{
-    position: absolute;
-    right: 25%;
-    bottom: -5%;
-}
-.container{
-    position: relative;
-}
-.Line {
-    position: absolute;
-    z-index: 1;
-    left: 20%;
-    top: 10%;
-}
-.group-img{
-    position: absolute;
-    z-index: 1;
-    right: 27%;
-    top: 5%;
-} */
 .search-con {
     width: 100%;
     display: flex;
@@ -276,6 +245,9 @@ span {
 
 .mobile {
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .guide-header {
@@ -426,13 +398,16 @@ small {
 .copy-rights-con {
     background-color: #fff;
     border-top: 1px solid #b7b4b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #75BF7A;
+    font-weight: 600;
+    text-align: center;
 }
 
 .copy-rights-con p {
     color: #75BF7A;
-    margin: 0 auto;
-    padding: 20px 0px;
-    font-weight: 600;
 }
 .mobile-con-mobile{
     display: none;
@@ -605,8 +580,46 @@ small {
     .mobile>img{
         padding-top: 140px;
     }
-    .request-ride{
+    .mobile-con-mobile .request-ride{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .mobile-con-mobile p{
+        width: 100%;
+        font-size: 20px;
+
+    }
+    .mobile-con-mobile .request-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexible{
+        flex-direction: column;
+        position: static;
+        height: auto;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .flex-para{
+        display: flex;
+        align-items: center;
+    }
+    .flex-para p{
+        position: static;
+        font-weight: 800;
+        margin-left: 20px;
+        order: 2;
+    }
+    .flex-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-p{
+        width: auto;
+        height: auto;
     }
 }
 
